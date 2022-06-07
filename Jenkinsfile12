@@ -5,7 +5,7 @@ pipeline {
         jdk 'java'
     }
     environment {
-    PATH=C:\\Windows\\System32
+    PATH="C:/Windows/System32"
         EMAIL_TO = 'ajaysherikar007@gmail.com'
     }
      post {  
