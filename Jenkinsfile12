@@ -14,11 +14,6 @@ mail bcc: '', body: "<b>Example</b><br>Project: ${env.JOB_NAME} <br>Build Number
         }
      }  
     stages {
-         stage ('git clone') {
-            steps {
-                git  'https://github.com/ajay9595/maven.git'
-            }
-         }
           stage ('compile') {
             steps {
                 bat "mvn compile"
