@@ -4,6 +4,7 @@ pipeline {
         maven 'maven'
         jdk 'java'
     }
+    
     environment {
     PATH="C:/Windows/System32"
         EMAIL_TO = 'ajaysherikar007@gmail.com'
